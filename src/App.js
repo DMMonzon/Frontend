@@ -1,7 +1,6 @@
-import { BrowserRouter as Router,Switch,Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Header from './components/layout/Header';
-import Nav from './components/layout/Nav';
 import Footer from './components/layout/Footer';
 import './estilos_pantallas.css';
 
@@ -13,15 +12,13 @@ import Novedades from './pages/Novedades';
 function App() {
   return (
     <Router>
-      <Header>
-    <Nav>
+      <Header/>
     <Switch>
       <Route path="/" exact component={Home} />
-      <Route path="/Nosotros" exact component={Nosotros} />
-      <Route path="/Novedades" exact component={Novedades} />
-      <Route path="/Contacto" exact component={Contacto} />
+      <Route path="/nosotros" exact component={Nosotros} />
+      <Route path="/novedades" exact component={Novedades} />
+      <Route path="/contacto" exact component={Contacto} />
     </Switch>
-    </Nav></Header>
     <Footer/>
     </Router>
   );
