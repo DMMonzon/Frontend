@@ -1,0 +1,11 @@
+footer {
+    height: 30px;
+    width: 100%;
+    background: tomato;
+    background: linear-gradient(300deg, tomato 0%, rgba(0,0,0,1) 70%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+}

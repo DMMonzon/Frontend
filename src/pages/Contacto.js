@@ -1,3 +1,4 @@
+import '../styles/components/pages/Contacto.css';
 import React from 'react';
 
 const Contacto = (props) => {

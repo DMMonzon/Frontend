@@ -1,3 +1,4 @@
+import '../styles/components/pages/Home.css';
 import React from 'react';
 
 const Home = (props) => {

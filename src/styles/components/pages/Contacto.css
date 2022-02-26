@@ -1,0 +1,40 @@
+.contacto {
+    display: flex;
+    margin: 0px auto 50px auto;
+    width: 800px;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 20px 0px 0px;
+    width: 50%;
+    border-right: solid rgb(221, 221, 221) 2px;
+    padding-right: 20px;
+}
+textarea, input {
+    margin: 8px 0px;
+    border-radius: 5px;
+    font-weight: lighter;
+    color: rgb(43, 43, 43);
+    font-size: 14px;
+    font-family: FontAwesome, 'Dosis', sans-serif;
+    resize: none;
+}
+textarea:focus, input:focus {
+    border-color: tomato;
+    outline: none;
+}
+#boton-enviar {
+    background-color: #a2d9ff;
+    font-weight: bold;
+    font-size: 18px;
+}
+#boton-enviar:hover {
+    background-color: tomato;
+    color: white;
+}
+#mail {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
+}

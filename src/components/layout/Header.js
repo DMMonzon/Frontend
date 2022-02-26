@@ -1,5 +1,6 @@
+import '../../styles/components/layout/Header.css';
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 function Header (props) {
     return (
@@ -8,17 +9,17 @@ function Header (props) {
             <h3>NEWZ</h3>
         </div>
         <nav className="nav-items">
-            <h5><Link to="/"><i className="fas fa-home"></i>Principal</Link></h5>
-            <h5><Link to="/novedades"><i className="fas fa-exclamation-circle"></i>Novedades</Link></h5>
-            <h5><Link to="/contacto"><i className="fas fa-paper-plane"></i>Contacto</Link></h5>
-            <h5><Link to="/nosotros"><i className="fas fa-users"></i>Nosotros</Link></h5>
+            <h5><NavLink activeClassName='seleccionado' exact to="/"><i className="fas fa-home"></i>Principal</NavLink></h5>
+            <h5><NavLink activeClassName='seleccionado' exact to="/novedades"><i className="fas fa-exclamation-circle"></i>Novedades</NavLink></h5>
+            <h5><NavLink activeClassName='seleccionado' exact to="/contacto"><i className="fas fa-paper-plane"></i>Contacto</NavLink></h5>
+            <h5><NavLink activeClassName='seleccionado' exact to="/nosotros"><i className="fas fa-users"></i>Nosotros</NavLink></h5>
         
         </nav>
             <nav class="nav-movil">
-                <Link to="/"><i className="fas fa-home"></i></Link>
-                <Link to="/novedades"><i className="fas fa-exclamation-circle"></i></Link>
-                <Link to="/contacto"><i className="fas fa-paper-plane"></i></Link>
-                <Link to="/nosotros"><i className="fas fa-users"></i></Link>
+                <NavLink activeClassName='seleccionado' exact to="/"><i className="fas fa-home"></i></NavLink>
+                <NavLink activeClassName='seleccionado' exact to="/novedades"><i className="fas fa-exclamation-circle"></i></NavLink>
+                <NavLink activeClassName='seleccionado' exact to="/contacto"><i className="fas fa-paper-plane"></i></NavLink>
+                <NavLink activeClassName='seleccionado' exact to="/nosotros"><i className="fas fa-users"></i></NavLink>
             </nav>
     </header>
     );
