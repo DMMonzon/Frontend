@@ -7,6 +7,7 @@ import './App.css';
 import Contacto from './pages/Contacto';
 import Home from './pages/Home';
 import Nosotros from './pages/Nosotros';
+import Noticias from './pages/Noticias';
 import Novedades from './pages/Novedades';
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
     <Switch>
       <Route path="/" exact component={Home} />
       <Route path="/nosotros" exact component={Nosotros} />
-      <Route path="/novedades" exact component={Novedades} />
+      <Route path="/novedades" exact component={Noticias} />
       <Route path="/contacto" exact component={Contacto} />
     </Switch>
     <Footer/>

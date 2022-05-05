@@ -172,6 +172,7 @@ svg {
     margin: 0px 0px;
     z-index: -1;
 }
+
 /* estilos de las FUENTES */
 .fuente-destacada {
     width: 130px;
@@ -222,8 +223,9 @@ svg {
     align-items: center;
 }
 .nosotros {
-    display: inline-flex;
-    flex-direction: row;
+    display:inline;
+    flex-direction:row;
+    flex-wrap: wrap;
 }
 .items {
     display:flex;

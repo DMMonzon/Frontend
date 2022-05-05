@@ -10,7 +10,7 @@ function Header (props) {
         </div>
         <nav className="nav-items">
             <h5><NavLink activeClassName='seleccionado' exact to="/"><i className="fas fa-home"></i>Principal</NavLink></h5>
-            <h5><NavLink activeClassName='seleccionado' exact to="/novedades"><i className="fas fa-exclamation-circle"></i>Novedades</NavLink></h5>
+            <h5><NavLink activeClassName='seleccionado' exact to="/novedades"><i className="fas fa-exclamation-circle"></i>Noticias</NavLink></h5>
             <h5><NavLink activeClassName='seleccionado' exact to="/contacto"><i className="fas fa-paper-plane"></i>Contacto</NavLink></h5>
             <h5><NavLink activeClassName='seleccionado' exact to="/nosotros"><i className="fas fa-users"></i>Nosotros</NavLink></h5>
         
