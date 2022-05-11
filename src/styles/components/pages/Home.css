@@ -55,14 +55,6 @@ h6 {
     line-height: 20px;
     margin: 5px;
 }
-h5 {
-    color: black;
-    text-shadow: 2px 2px 5px tomato;
-    font-size: 36px;
-    line-height: 36px;
-    position: absolute;
-    margin: 10px;
-}
 .fotoytexto {
     display: flex;
     flex-direction: row;
