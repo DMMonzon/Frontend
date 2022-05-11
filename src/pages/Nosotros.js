@@ -47,6 +47,10 @@ const Nosotros = (props) => {
             </div>
         </div>
     </div>
+    <div class="card">
+    <img src="images/redaccion.jpg" alt="buscadores trabajando" id="foto-grande" />
+    <h5>SOMOS EL NEXO ENTRE LAS REDES Y TU INTERÉS.</h5>
+    </div>
         </section>
     );
 }
