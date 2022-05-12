@@ -36,7 +36,7 @@ const Noticias = (props) => {
                         noticias.map(item => <NoticiaItem key={item.id} 
                         title={item.titulo} subtitle={item.subtitulo} imagen={item.imagen} />)
                     )}
-        </content>
+        <br></br></content>
     );
 }
 

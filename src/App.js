@@ -8,7 +8,6 @@ import Contacto from './pages/Contacto';
 import Home from './pages/Home';
 import Nosotros from './pages/Nosotros';
 import Noticias from './pages/Noticias';
-import Novedades from './pages/Novedades';
 
 function App() {
   return (

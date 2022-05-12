@@ -1,6 +1,7 @@
 .contacto {
     display: flex;
-    margin: 0px auto 50px auto;
+    flex-wrap: wrap;
+    margin: 0px auto 50px 20px;
     width: 800px;
 }
 .formulario {
