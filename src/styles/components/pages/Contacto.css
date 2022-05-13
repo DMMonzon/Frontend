@@ -1,7 +1,7 @@
 .contacto {
     display: flex;
-    flex-wrap: wrap;
-    margin: 0px auto 50px 20px;
+    flex-direction: row;
+    margin: 0px auto 50px auto;
     width: 800px;
 }
 .formulario {
